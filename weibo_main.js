@@ -21,7 +21,7 @@ const mainConfig = storeMainConfig ? JSON.parse(storeMainConfig) : {
 	removeRewardItem: false,	//微博详情页打赏模块
 
 	removeLiveMedia: true,		//首页顶部直播
-	removeNextVideo: false,					//关闭自动播放下一个视频
+	removeNextVideo: true,					//关闭自动播放下一个视频
 
 	removePinedTrending: true,		//删除热搜列表置顶条目
 
